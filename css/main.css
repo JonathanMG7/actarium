@@ -4,7 +4,7 @@
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
- */
+*/
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -19,15 +19,15 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 1em;/*
+    line-height: 1.4;*/
 }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
- */
+*/
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -41,7 +41,7 @@ body {
 
 /*
  * A better looking default horizontal rule
- */
+*/
 
 hr {
     display: block;
@@ -54,7 +54,7 @@ hr {
 
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
- */
+*/
 
 img {
     vertical-align: middle;
@@ -62,7 +62,7 @@ img {
 
 /*
  * Remove default fieldset styles.
- */
+*/
 
 fieldset {
     border: 0;
@@ -72,7 +72,7 @@ fieldset {
 
 /*
  * Allow only vertical resizing of textareas.
- */
+*/
 
 textarea {
     resize: vertical;
@@ -94,9 +94,31 @@ textarea {
    ========================================================================== */
 
 
-
-
-
+article{
+    background-color: #EEE;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 40px;
+    padding-top: 20px;
+    width: 50%;
+}
+.but{
+    background-color:  #999;
+    height: auto;
+    padding:10px;
+    width: 60px;
+}
+a ,a:visited ,a:link,a:hover{
+    text-decoration: none;
+}
+.sing{
+    alignment-adjust: central;
+}
+footer{
+    border-top: solid thin #dadada;
+    text-align: center;
+    padding: 20px;
+}
 
 
 
@@ -115,7 +137,7 @@ textarea {
 
 /*
  * Image replacement
- */
+*/
 
 .ir {
     background-color: transparent;
@@ -134,7 +156,7 @@ textarea {
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
- */
+*/
 
 .hidden {
     display: none !important;
@@ -143,7 +165,7 @@ textarea {
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
+*/
 
 .visuallyhidden {
     border: 0;
@@ -159,7 +181,7 @@ textarea {
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
- */
+*/
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -173,7 +195,7 @@ textarea {
 
 /*
  * Hide visually and from screenreaders, but maintain layout
- */
+*/
 
 .invisible {
     visibility: hidden;
@@ -189,7 +211,7 @@ textarea {
  *    that receive the `clearfix` class.
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
- */
+*/
 
 .clearfix:before,
 .clearfix:after {
@@ -204,7 +226,7 @@ textarea {
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
- */
+*/
 
 .clearfix {
     *zoom: 1;
@@ -221,7 +243,7 @@ textarea {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 144dpi) {
+only screen and (min-resolution: 144dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -253,7 +275,7 @@ textarea {
 
     /*
      * Don't show links for images, or javascript/internal links
-     */
+    */
 
     .ir a:after,
     a[href^="javascript:"]:after,
