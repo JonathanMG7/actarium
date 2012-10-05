@@ -97,10 +97,13 @@ textarea {
 article{
     background-color: #EEE;
     border-radius: 10px;
-    margin: 100px auto;
+    margin: 20px auto;
     padding: 40px;
     padding-top: 20px;
     width: 50%;
+}
+#body_container{
+    min-height: 400px;
 }
 .but{
     background-color:  #999;
@@ -119,7 +122,16 @@ footer{
     text-align: center;
     padding: 20px;
 }
-
+article ul li a{
+    border-bottom: solid thin white;
+    opacity: 0.7; 
+}
+article ul a img{
+    margin:10px;
+}
+article ul li a:hover{
+    opacity: 1;
+}
 
 
 
